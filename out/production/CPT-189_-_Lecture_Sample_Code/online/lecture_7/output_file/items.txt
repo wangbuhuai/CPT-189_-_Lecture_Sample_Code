@@ -1,0 +1,16 @@
+Name: Banana
+Quantity: 10
+Expiration date: 12/16/2019
+Has seed: false
+
+Name: Flashlight
+Quantity: 12
+
+Name: Futuretelling
+Quantity: 50
+ISBN: 10012341235223
+
+Name: Artichoke
+Quantity: 32
+Expiration date: 11/23/2019
+
