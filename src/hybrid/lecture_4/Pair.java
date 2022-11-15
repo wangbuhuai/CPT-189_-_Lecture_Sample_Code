@@ -1,6 +1,6 @@
 // Created by Dayu Wang (dwang@stchas.edu) on 2021-04-17
 
-// Last updated by Dayu Wang (dwang@stchas.edu) on 2022-04-22
+// Last updated by Dayu Wang (dwang@stchas.edu) on 2022-11-10
 
 
 package hybrid.lecture_4;
@@ -8,16 +8,16 @@ package hybrid.lecture_4;
 /** A pair of an integer and a string */
 public class Pair {
     // Data fields
-    private int first;  // Integer (first value) in the pair
-    private String second;  // String (second value) in the pair
+    private int first;  // Stores the integer (first value) in the pair
+    private String second;  // Stores the string (second value) in the pair
     
     // Constructors
     
     public Pair() { second = ""; }  // Default constructor
     
     public Pair(int first, String second) {
-        this.first = first;
-        this.second = second;
+        setFirst(first);
+        setSecond(second);
     }
     
     // Getters

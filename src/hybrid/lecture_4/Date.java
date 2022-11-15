@@ -1,6 +1,6 @@
 // Created by Dayu Wang (dwang@stchas.edu) on 2021-04-17
 
-// Last updated by Dayu Wang (dwang@stchas.edu) on 2022-04-22
+// Last updated by Dayu Wang (dwang@stchas.edu) on 2022-11-10
 
 
 package hybrid.lecture_4;
@@ -20,9 +20,9 @@ public class Date {
     public Date() { format = DateFormat.US; }  // Default constructor
     
     public Date(int year, int month, int dayOfMonth) {
-        this.year = year;
-        this.month = month;
-        this.dayOfMonth = dayOfMonth;
+        setYear(year);
+        setMonth(month);
+        setDayOfMonth(dayOfMonth);
         format = DateFormat.US;
     }
     
@@ -75,6 +75,6 @@ public class Date {
             case Asian:
                 return String.format("%04d-%02d-%02d", year, month, dayOfMonth);
         }
-        return "";  // Avoid warnings.
+        return "";  // Avoid warning messages.
     }
 }

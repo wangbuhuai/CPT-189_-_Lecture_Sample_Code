@@ -1,6 +1,6 @@
 // Created by Dayu Wang (dwang@stchas.edu) on 2021-04-17
 
-// Last updated by Dayu Wang (dwang@stchas.edu) on 2022-04-22
+// Last updated by Dayu Wang (dwang@stchas.edu) on 2022-11-10
 
 
 package hybrid.lecture_4;
@@ -8,16 +8,16 @@ package hybrid.lecture_4;
 /** A geometric rectangle */
 public class Rectangle {
     // Data fields
-    private int width;  // Width of the rectangle
-    private int height;  // Height of the rectangle
+    private int width;  // Stores the width of the rectangle.
+    private int height;  // Stores the height of the rectangle.
 
     // Constructors
 
     public Rectangle() {}  // Default constructor
 
     public Rectangle(int width, int height) {
-        this.width = width;
-        this.height = height;
+        setWidth(width);
+        setHeight(height);
     }
 
     // Getters

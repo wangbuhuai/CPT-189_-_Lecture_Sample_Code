@@ -1,6 +1,6 @@
 // Created by Dayu Wang (dwang@stchas.edu) on 2021-04-17
 
-// Last updated by Dayu Wang (dwang@stchas.edu) on 2022-04-22
+// Last updated by Dayu Wang (dwang@stchas.edu) on 2022-11-10
 
 
 package hybrid.lecture_4;
@@ -11,12 +11,12 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Scanner;
 
-public class AreaCalculator {
+public class Program {
     public static void main(String[] args) throws IOException {
         // Open the input and output file.
-        FileInputStream inputFile = new FileInputStream("./src/hybrid/lecture_4/input_file/rectangles.txt");
+        FileInputStream inputFile = new FileInputStream("src/hybrid/lecture_4/inputFile/rectangles.txt");
         Scanner scanner = new Scanner(inputFile);
-        FileOutputStream outputFile = new FileOutputStream("./src/hybrid/lecture_4/output_file/areas.txt");
+        FileOutputStream outputFile = new FileOutputStream("src/hybrid/lecture_4/outputFile/areas.txt");
         PrintWriter writer = new PrintWriter(outputFile);
         
         // Read in the rectangles stored in the input file one-by-one.
